@@ -1,12 +1,12 @@
 import React from 'react';
 import './TodoCounter.css'
 
-function TodoCounter({totalTodos, completedTodos}) {
+function TodoCounter({totalTodos, completedTodos, loading}) {
   let message;
 
-  if (totalTodos === 0) {
+  if (totalTodos === 0 && !loading) {
     message = 'Animate y crea tu primer TODO';
-  } else if(completedTodos === totalTodos) {
+  } else if(completedTodos === totalTodos && !loading) {
     message = '¡Felicitaciones has completado todas tus tareas!';
   }else {
     message = (
@@ -17,7 +17,7 @@ function TodoCounter({totalTodos, completedTodos}) {
   }
 
   return(
-      <h1 className="TodoCounter">
+      <h1 className={`TodoCounter ${!!loading && "TodoCounter--loading"}`}>
         {message}
       </h1>
     // completed === total  ?
