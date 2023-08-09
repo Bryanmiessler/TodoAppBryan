@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TodoAppBryan/static/css/main.1b24654a.css",
-    "main.js": "/TodoAppBryan/static/js/main.ceeb1f48.js",
+    "main.css": "/TodoAppBryan/static/css/main.b1a12542.css",
+    "main.js": "/TodoAppBryan/static/js/main.6265ad5d.js",
     "index.html": "/TodoAppBryan/index.html",
     "static/media/delete.svg": "/TodoAppBryan/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
     "static/media/check.svg": "/TodoAppBryan/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
-    "main.1b24654a.css.map": "/TodoAppBryan/static/css/main.1b24654a.css.map",
-    "main.ceeb1f48.js.map": "/TodoAppBryan/static/js/main.ceeb1f48.js.map"
+    "main.b1a12542.css.map": "/TodoAppBryan/static/css/main.b1a12542.css.map",
+    "main.6265ad5d.js.map": "/TodoAppBryan/static/js/main.6265ad5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b24654a.css",
-    "static/js/main.ceeb1f48.js"
+    "static/css/main.b1a12542.css",
+    "static/js/main.6265ad5d.js"
   ]
 }
